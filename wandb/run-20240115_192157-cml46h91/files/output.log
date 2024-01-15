@@ -1,0 +1,34 @@
+D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\cuda\amp\grad_scaler.py:115: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn("torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.")
+Train :   0%|          | 0/1 [00:00<?, ?it/s]
+Train :   0%|          | 0/1 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\PythonPrograms\pytorch\pengge\U-Net-template\train.py", line 117, in <module>
+    run_training(model, optimizer, scheduler, run, CFG.epochs, train_loader, valid_loader)
+  File "D:\PythonPrograms\pytorch\pengge\U-Net-template\train.py", line 45, in run_training
+    train_loss = train_one_epoch(model, optimizer, scheduler,
+  File "D:\PythonPrograms\pytorch\pengge\U-Net-template\utils\train_one_epoch.py", line 32, in train_one_epoch
+    for step, (images, masks) in pbar:
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\tqdm\std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 1224, in _next_data
+    return self._process_data(data)
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 1250, in _process_data
+    data.reraise()
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\_utils.py", line 457, in reraise
+    raise exception
+AttributeError: Caught AttributeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\_utils\worker.py", line 287, in _worker_loop
+    data = fetcher.fetch(index)
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\PythonPrograms\pytorch\pengge\U-Net-template\utils\build_dataset.py", line 33, in __getitem__
+    img = load_img(img_path)
+  File "D:\PythonPrograms\pytorch\pengge\U-Net-template\utils\util.py", line 43, in load_img
+    img = img.astype('float32')
+AttributeError: 'NoneType' object has no attribute 'astype'

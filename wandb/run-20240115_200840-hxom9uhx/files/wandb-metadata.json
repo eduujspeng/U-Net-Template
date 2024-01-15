@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2024-01-15T12:08:42.823043",
+    "startedAt": "2024-01-15T12:08:40.264222",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:/PythonPrograms/pytorch/pengge/U-Net-template/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "peng",
+    "username": "pengge",
+    "executable": "D:\\Users\\pengge\\anaconda3\\envs\\pytorch\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2555.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2555.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 275.69140243530273,
+            "used": 133.33623123168945
+        }
+    },
+    "memory": {
+        "total": 13.865715026855469
+    }
+}

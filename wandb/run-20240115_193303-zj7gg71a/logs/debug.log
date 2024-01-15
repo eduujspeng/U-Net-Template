@@ -1,0 +1,35 @@
+2024-01-15 19:33:03,600 INFO    MainThread:33452 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2024-01-15 19:33:03,600 INFO    MainThread:33452 [wandb_setup.py:_flush():76] Configure stats pid to 33452
+2024-01-15 19:33:03,600 INFO    MainThread:33452 [wandb_setup.py:_flush():76] Loading settings from C:\Users\pengge\.config\wandb\settings
+2024-01-15 19:33:03,600 INFO    MainThread:33452 [wandb_setup.py:_flush():76] Loading settings from D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\settings
+2024-01-15 19:33:03,600 INFO    MainThread:33452 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-15 19:33:03,600 INFO    MainThread:33452 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-15 19:33:03,611 INFO    MainThread:33452 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'D:\\PythonPrograms\\pytorch\\pengge\\U-Net-template\\train.py', 'program': 'D:\\PythonPrograms\\pytorch\\pengge\\U-Net-template\\train.py'}
+2024-01-15 19:33:03,611 INFO    MainThread:33452 [wandb_init.py:_log_setup():524] Logging user logs to D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_193303-zj7gg71a\logs\debug.log
+2024-01-15 19:33:03,611 INFO    MainThread:33452 [wandb_init.py:_log_setup():525] Logging internal logs to D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_193303-zj7gg71a\logs\debug-internal.log
+2024-01-15 19:33:03,611 INFO    MainThread:33452 [wandb_init.py:init():564] calling init triggers
+2024-01-15 19:33:03,611 INFO    MainThread:33452 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'wandb_flag': False, 'seed': 42, 'debug': False, 'exp_name': 'Baselinev2', 'comment': 'unet-efficientnet_b1-224x224-aug2-split2', 'model_name': 'UNet', 'backbone': 'efficientnet-b1', 'train_bs': 128, 'valid_bs': 256, 'img_size': [224, 224], 'epochs': 3, 'lr': 0.002, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 753, 'T_0': 25, 'warmup_epochs': 0, 'wd': 1e-06, 'n_accumulate': 1, 'n_fold': 5, 'num_classes': 1, 'device': device(type='cpu')}
+2024-01-15 19:33:03,612 INFO    MainThread:33452 [wandb_init.py:init():614] starting backend
+2024-01-15 19:33:03,612 INFO    MainThread:33452 [wandb_init.py:init():618] setting up manager
+2024-01-15 19:33:03,614 INFO    MainThread:33452 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-01-15 19:33:03,617 INFO    MainThread:33452 [wandb_init.py:init():624] backend started and connected
+2024-01-15 19:33:03,620 INFO    MainThread:33452 [wandb_init.py:init():716] updated telemetry
+2024-01-15 19:33:03,622 INFO    MainThread:33452 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-01-15 19:33:39,955 WARNING MainThread:33452 [wandb_init.py:init():1192] interrupted
+Traceback (most recent call last):
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\wandb_init.py", line 1170, in init
+    run = wi.init()
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "D:\Users\pengge\anaconda3\envs\pytorch\lib\threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

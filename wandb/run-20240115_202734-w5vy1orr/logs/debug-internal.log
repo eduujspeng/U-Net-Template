@@ -1,0 +1,356 @@
+2024-01-15 20:27:34,181 INFO    StreamThr :35352 [internal.py:wandb_internal():86] W&B internal server running at pid: 35352, started at: 2024-01-15 20:27:34.180842
+2024-01-15 20:27:34,182 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status
+2024-01-15 20:27:34,187 INFO    WriterThread:35352 [datastore.py:open_for_write():85] open: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\run-w5vy1orr.wandb
+2024-01-15 20:27:34,187 DEBUG   SenderThread:35352 [sender.py:send():382] send: header
+2024-01-15 20:27:34,189 DEBUG   SenderThread:35352 [sender.py:send():382] send: run
+2024-01-15 20:27:35,518 INFO    SenderThread:35352 [dir_watcher.py:__init__():211] watching files in: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files
+2024-01-15 20:27:35,518 INFO    SenderThread:35352 [sender.py:_start_run_threads():1136] run started: w5vy1orr with start time 1705321654.183844
+2024-01-15 20:27:35,526 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: check_version
+2024-01-15 20:27:35,526 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: check_version
+2024-01-15 20:27:36,548 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: run_start
+2024-01-15 20:27:36,561 DEBUG   HandlerThread:35352 [system_info.py:__init__():32] System info init
+2024-01-15 20:27:36,561 DEBUG   HandlerThread:35352 [system_info.py:__init__():47] System info init done
+2024-01-15 20:27:36,561 INFO    HandlerThread:35352 [system_monitor.py:start():194] Starting system monitor
+2024-01-15 20:27:36,562 INFO    SystemMonitor:35352 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-15 20:27:36,562 INFO    HandlerThread:35352 [system_monitor.py:probe():214] Collecting system info
+2024-01-15 20:27:36,568 INFO    SystemMonitor:35352 [interfaces.py:start():190] Started cpu monitoring
+2024-01-15 20:27:36,573 DEBUG   HandlerThread:35352 [system_info.py:probe():196] Probing system
+2024-01-15 20:27:36,574 INFO    SystemMonitor:35352 [interfaces.py:start():190] Started disk monitoring
+2024-01-15 20:27:36,582 INFO    SystemMonitor:35352 [interfaces.py:start():190] Started memory monitoring
+2024-01-15 20:27:36,589 INFO    SystemMonitor:35352 [interfaces.py:start():190] Started network monitoring
+2024-01-15 20:27:36,596 DEBUG   HandlerThread:35352 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-15 20:27:36,596 DEBUG   HandlerThread:35352 [system_info.py:probe():244] Probing system done
+2024-01-15 20:27:36,596 DEBUG   HandlerThread:35352 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.9.12', 'heartbeatAt': '2024-01-15T12:27:36.573295', 'startedAt': '2024-01-15T12:27:34.163047', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\PythonPrograms\\pytorch\\pengge\\U-Net-template\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'peng', 'username': 'pengge', 'executable': 'D:\\Users\\pengge\\anaconda3\\envs\\pytorch\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2555.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 2555.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'/': {'total': 275.69140243530273, 'used': 133.3363494873047}}, 'memory': {'total': 13.865715026855469}}
+2024-01-15 20:27:36,596 INFO    HandlerThread:35352 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-15 20:27:36,596 INFO    HandlerThread:35352 [system_monitor.py:probe():227] Publishing system info
+2024-01-15 20:27:36,596 DEBUG   HandlerThread:35352 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-15 20:27:36,597 DEBUG   HandlerThread:35352 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-15 20:27:36,597 DEBUG   HandlerThread:35352 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-15 20:27:37,529 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_created():271] file/dir created: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\conda-environment.yaml
+2024-01-15 20:27:37,529 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_created():271] file/dir created: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\requirements.txt
+2024-01-15 20:27:38,539 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\conda-environment.yaml
+2024-01-15 20:27:38,543 DEBUG   HandlerThread:35352 [system_info.py:_save_conda():87] Saving conda packages done
+2024-01-15 20:27:38,543 INFO    HandlerThread:35352 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-15 20:27:38,550 DEBUG   SenderThread:35352 [sender.py:send():382] send: files
+2024-01-15 20:27:38,550 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-15 20:27:38,557 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-15 20:27:38,557 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: stop_status
+2024-01-15 20:27:38,558 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:27:38,943 DEBUG   SenderThread:35352 [sender.py:send():382] send: telemetry
+2024-01-15 20:27:38,944 DEBUG   SenderThread:35352 [sender.py:send():382] send: telemetry
+2024-01-15 20:27:39,551 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_created():271] file/dir created: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:27:39,552 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_created():271] file/dir created: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\wandb-metadata.json
+2024-01-15 20:27:39,958 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:27:40,668 INFO    wandb-upload_0:35352 [upload_job.py:push():131] Uploaded file C:\Users\pengge\AppData\Local\Temp\tmpjcyv7wiewandb\bsrwbne3-wandb-metadata.json
+2024-01-15 20:27:41,567 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:27:42,569 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:27:44,578 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:27:45,590 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:27:50,619 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:27:53,563 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:27:53,579 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-15 20:27:53,580 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: stop_status
+2024-01-15 20:27:55,946 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:27:58,663 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:00,678 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:01,691 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:06,746 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:07,652 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-15 20:28:07,654 DEBUG   SenderThread:35352 [sender.py:send():382] send: history
+2024-01-15 20:28:07,654 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: summary_record
+2024-01-15 20:28:07,660 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:28:07,660 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: summary_record
+2024-01-15 20:28:07,661 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:28:07,662 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: summary_record
+2024-01-15 20:28:07,663 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:28:07,664 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: summary_record
+2024-01-15 20:28:07,665 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:28:07,751 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\config.yaml
+2024-01-15 20:28:07,752 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_created():271] file/dir created: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\wandb-summary.json
+2024-01-15 20:28:07,754 DEBUG   SenderThread:35352 [sender.py:send():382] send: telemetry
+2024-01-15 20:28:07,755 DEBUG   SenderThread:35352 [sender.py:send():382] send: files
+2024-01-15 20:28:07,755 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file best_epoch.bin with policy live
+2024-01-15 20:28:08,577 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:28:08,593 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-15 20:28:08,594 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: stop_status
+2024-01-15 20:28:08,764 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:08,764 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_created():271] file/dir created: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\best_epoch.bin
+2024-01-15 20:28:09,768 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:10,776 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:12,329 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:17,348 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:22,399 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:23,578 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:28:23,609 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-15 20:28:23,610 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: stop_status
+2024-01-15 20:28:27,479 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:28,947 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:30,955 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:33,032 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:36,605 DEBUG   SystemMonitor:35352 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-15 20:28:36,606 DEBUG   SenderThread:35352 [sender.py:send():382] send: stats
+2024-01-15 20:28:37,334 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-15 20:28:37,335 DEBUG   SenderThread:35352 [sender.py:send():382] send: history
+2024-01-15 20:28:37,335 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: summary_record
+2024-01-15 20:28:37,337 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:28:38,026 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\wandb-summary.json
+2024-01-15 20:28:38,529 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:38,588 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:28:38,603 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-15 20:28:38,884 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: stop_status
+2024-01-15 20:28:39,040 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\config.yaml
+2024-01-15 20:28:39,040 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:40,047 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:41,062 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:28:44,713 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:49,771 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:28:53,611 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:28:53,624 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-15 20:28:53,625 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: stop_status
+2024-01-15 20:28:55,023 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:00,088 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:01,239 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:29:03,267 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:29:05,778 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:06,611 DEBUG   SenderThread:35352 [sender.py:send():382] send: stats
+2024-01-15 20:29:08,608 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:29:08,624 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-15 20:29:08,625 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: stop_status
+2024-01-15 20:29:09,018 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-15 20:29:09,020 DEBUG   SenderThread:35352 [sender.py:send():382] send: history
+2024-01-15 20:29:09,020 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: summary_record
+2024-01-15 20:29:09,022 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:29:09,147 DEBUG   SenderThread:35352 [sender.py:send():382] send: exit
+2024-01-15 20:29:09,147 INFO    SenderThread:35352 [sender.py:send_exit():589] handling exit code: 0
+2024-01-15 20:29:09,147 INFO    SenderThread:35352 [sender.py:send_exit():591] handling runtime: 92
+2024-01-15 20:29:09,148 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:29:09,148 INFO    SenderThread:35352 [sender.py:send_exit():597] send defer
+2024-01-15 20:29:09,148 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,148 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-15 20:29:09,148 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,148 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-15 20:29:09,148 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 1
+2024-01-15 20:29:09,149 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,149 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-15 20:29:09,149 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,149 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-15 20:29:09,149 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 2
+2024-01-15 20:29:09,149 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,149 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-15 20:29:09,149 INFO    HandlerThread:35352 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-15 20:29:09,149 DEBUG   SystemMonitor:35352 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-15 20:29:09,150 INFO    HandlerThread:35352 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-15 20:29:09,150 DEBUG   SystemMonitor:35352 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-15 20:29:09,150 INFO    HandlerThread:35352 [interfaces.py:finish():202] Joined disk monitor
+2024-01-15 20:29:09,150 INFO    HandlerThread:35352 [interfaces.py:finish():202] Joined memory monitor
+2024-01-15 20:29:09,151 INFO    HandlerThread:35352 [interfaces.py:finish():202] Joined network monitor
+2024-01-15 20:29:09,151 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,151 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-15 20:29:09,151 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 3
+2024-01-15 20:29:09,151 DEBUG   SenderThread:35352 [sender.py:send():382] send: stats
+2024-01-15 20:29:09,151 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,151 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-15 20:29:09,152 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,152 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-15 20:29:09,152 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 4
+2024-01-15 20:29:09,152 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,152 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-15 20:29:09,152 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,152 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-15 20:29:09,152 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 5
+2024-01-15 20:29:09,152 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,152 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-15 20:29:09,153 DEBUG   SenderThread:35352 [sender.py:send():382] send: summary
+2024-01-15 20:29:09,153 INFO    SenderThread:35352 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-15 20:29:09,153 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,153 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-15 20:29:09,154 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 6
+2024-01-15 20:29:09,154 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,154 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-15 20:29:09,154 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,154 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-15 20:29:09,154 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 7
+2024-01-15 20:29:09,154 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:09,154 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:09,154 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-15 20:29:09,155 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:09,155 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-15 20:29:09,314 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\wandb-summary.json
+2024-01-15 20:29:10,148 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:10,319 INFO    Thread-16 :35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:29:10,427 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 8
+2024-01-15 20:29:10,428 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:10,428 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:10,428 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-15 20:29:10,429 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:10,429 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-15 20:29:10,429 INFO    SenderThread:35352 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-15 20:29:10,429 INFO    SenderThread:35352 [job_builder.py:_get_source_type():439] no source found
+2024-01-15 20:29:10,429 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 9
+2024-01-15 20:29:10,430 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:10,430 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-15 20:29:10,430 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:10,430 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-15 20:29:10,430 INFO    SenderThread:35352 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-15 20:29:11,157 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:11,329 INFO    SenderThread:35352 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:29:11,329 INFO    SenderThread:35352 [dir_watcher.py:finish():388] scan: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files
+2024-01-15 20:29:11,339 INFO    SenderThread:35352 [dir_watcher.py:finish():402] scan save: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\best_epoch.bin best_epoch.bin
+2024-01-15 20:29:11,341 INFO    SenderThread:35352 [dir_watcher.py:finish():402] scan save: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\conda-environment.yaml conda-environment.yaml
+2024-01-15 20:29:11,341 INFO    SenderThread:35352 [dir_watcher.py:finish():402] scan save: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\config.yaml config.yaml
+2024-01-15 20:29:11,341 INFO    SenderThread:35352 [dir_watcher.py:finish():402] scan save: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log output.log
+2024-01-15 20:29:11,346 INFO    SenderThread:35352 [dir_watcher.py:finish():402] scan save: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\requirements.txt requirements.txt
+2024-01-15 20:29:11,347 INFO    SenderThread:35352 [dir_watcher.py:finish():402] scan save: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\wandb-metadata.json wandb-metadata.json
+2024-01-15 20:29:11,347 INFO    SenderThread:35352 [dir_watcher.py:finish():402] scan save: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\wandb-summary.json wandb-summary.json
+2024-01-15 20:29:11,351 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 10
+2024-01-15 20:29:11,352 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:11,352 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:11,352 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-15 20:29:11,352 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:11,355 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-15 20:29:11,355 INFO    SenderThread:35352 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-15 20:29:12,169 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:12,169 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:12,450 INFO    wandb-upload_1:35352 [upload_job.py:push():131] Uploaded file D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\conda-environment.yaml
+2024-01-15 20:29:12,491 INFO    wandb-upload_2:35352 [upload_job.py:push():131] Uploaded file D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\config.yaml
+2024-01-15 20:29:13,014 INFO    wandb-upload_3:35352 [upload_job.py:push():131] Uploaded file D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\output.log
+2024-01-15 20:29:13,050 INFO    wandb-upload_4:35352 [upload_job.py:push():131] Uploaded file D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\requirements.txt
+2024-01-15 20:29:13,072 INFO    wandb-upload_5:35352 [upload_job.py:push():131] Uploaded file D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\files\wandb-summary.json
+2024-01-15 20:29:13,169 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:13,170 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:14,174 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:14,174 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:15,187 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:15,188 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:16,201 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:16,202 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:17,206 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:17,207 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:17,207 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:18,215 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:18,216 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:19,226 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:19,227 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:20,241 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:20,242 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:21,249 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:21,249 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:22,251 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:22,251 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:22,251 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:23,265 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:23,265 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:24,281 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:24,281 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:25,288 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:25,288 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:26,289 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:26,289 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:27,300 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:27,300 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:27,300 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:28,312 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:28,312 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:29,325 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:29,325 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:30,333 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:30,334 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:31,335 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:31,335 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:32,346 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:32,346 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:32,347 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:33,357 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:33,357 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:34,368 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:34,368 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:35,378 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:35,378 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:36,392 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:36,392 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:37,404 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:37,405 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:37,405 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:38,415 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:38,415 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:39,429 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:39,429 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:40,442 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:40,443 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:41,447 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:41,447 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:42,450 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:42,451 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:42,451 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:43,460 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:43,461 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:44,462 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:44,463 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:45,466 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:45,466 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:46,468 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:46,469 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:47,484 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:47,484 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:47,484 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:48,497 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:48,498 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:49,509 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:49,509 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:50,522 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:50,523 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:51,534 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:51,535 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:52,539 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: status_report
+2024-01-15 20:29:52,539 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:52,540 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:53,551 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:53,551 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:54,561 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:54,562 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:54,974 INFO    wandb-upload_0:35352 [upload_job.py:push():131] Uploaded file C:\Users\pengge\AppData\Local\Temp\tmpjcyv7wiewandb\li0972ap-best_epoch.bin
+2024-01-15 20:29:55,184 INFO    Thread-15 :35352 [sender.py:transition_state():617] send defer: 11
+2024-01-15 20:29:55,184 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:55,184 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-15 20:29:55,184 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:55,184 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-15 20:29:55,184 INFO    SenderThread:35352 [file_pusher.py:join():181] waiting for file pusher
+2024-01-15 20:29:55,184 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 12
+2024-01-15 20:29:55,184 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:55,184 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-15 20:29:55,185 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:55,185 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-15 20:29:55,185 INFO    SenderThread:35352 [file_stream.py:finish():595] file stream finish called
+2024-01-15 20:29:55,522 INFO    SenderThread:35352 [file_stream.py:finish():599] file stream finish is done
+2024-01-15 20:29:55,522 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 13
+2024-01-15 20:29:55,522 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:55,522 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-15 20:29:55,523 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:55,523 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-15 20:29:55,523 INFO    SenderThread:35352 [sender.py:transition_state():617] send defer: 14
+2024-01-15 20:29:55,524 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: defer
+2024-01-15 20:29:55,524 DEBUG   SenderThread:35352 [sender.py:send():382] send: final
+2024-01-15 20:29:55,524 INFO    HandlerThread:35352 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-15 20:29:55,524 DEBUG   SenderThread:35352 [sender.py:send():382] send: footer
+2024-01-15 20:29:55,524 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: defer
+2024-01-15 20:29:55,524 INFO    SenderThread:35352 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-15 20:29:55,525 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:55,525 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-15 20:29:55,525 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: server_info
+2024-01-15 20:29:55,525 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:55,525 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-15 20:29:55,526 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: poll_exit
+2024-01-15 20:29:55,526 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-15 20:29:55,526 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: server_info
+2024-01-15 20:29:55,526 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-15 20:29:55,528 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: job_info
+2024-01-15 20:29:55,862 DEBUG   SenderThread:35352 [sender.py:send_request():409] send_request: job_info
+2024-01-15 20:29:55,862 INFO    MainThread:35352 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-01-15 20:29:55,862 INFO    MainThread:35352 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-01-15 20:29:55,862 INFO    MainThread:35352 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2024-01-15 20:29:55,863 DEBUG   HandlerThread:35352 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-15 20:29:55,863 INFO    HandlerThread:35352 [handler.py:finish():866] shutting down handler
+2024-01-15 20:29:56,530 INFO    WriterThread:35352 [datastore.py:close():294] close: D:\PythonPrograms\pytorch\pengge\U-Net-template\wandb\run-20240115_202734-w5vy1orr\run-w5vy1orr.wandb
+2024-01-15 20:29:56,876 INFO    SenderThread:35352 [sender.py:finish():1548] shutting down sender
+2024-01-15 20:29:56,876 INFO    SenderThread:35352 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-15 20:29:56,876 INFO    SenderThread:35352 [file_pusher.py:join():181] waiting for file pusher
